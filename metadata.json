@@ -1,0 +1,6 @@
+{
+  "name": "Assessoria Skale",
+  "description": "Website institucional de alta conversão para a agência Assessoria Skale. Especializada em tráfego pago, automação, estratégia e escala digital.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

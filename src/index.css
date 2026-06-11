@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-primary: #1A6DD9;
+  --color-brand-secondary: #448FF2;
+  --color-brand-accent: #3b82f6;
+  --color-dark-bg: #FFFFFF;
+  --color-dark-surface: #F8FAFC;
+  --color-dark-card: #FFFFFF;
+  --color-dark-border: rgba(26, 109, 217, 0.08);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: var(--color-dark-bg);
+    color: #1F2937;
+  }
+}
+
+.text-glow {
+  text-shadow: 0 0 20px rgba(68, 143, 242, 0.4);
+}
+
+.glow-box {
+  box-shadow: 0 0 30px rgba(26, 109, 217, 0.15);
+}
+
+.glow-btn {
+  box-shadow: 0 4px 20px rgba(26, 109, 217, 0.3);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
